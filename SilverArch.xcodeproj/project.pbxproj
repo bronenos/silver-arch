@@ -7,21 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D4D291531F9D113F00BC6E55 /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D291521F9D113F00BC6E55 /* RootRouter.swift */; };
+		D4D291551F9D157300BC6E55 /* AddCityStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D291541F9D157300BC6E55 /* AddCityStory.swift */; };
+		D4D291571F9D166F00BC6E55 /* AddCityInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D291561F9D166F00BC6E55 /* AddCityInteractor.swift */; };
+		D4D291591F9D194F00BC6E55 /* InputRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D291581F9D194F00BC6E55 /* InputRouter.swift */; };
+		D4D2915B1F9D196200BC6E55 /* InputInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D2915A1F9D196200BC6E55 /* InputInteractor.swift */; };
+		D4D2915D1F9D196B00BC6E55 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D2915C1F9D196B00BC6E55 /* InputViewController.swift */; };
+		D4D2915F1F9D21D800BC6E55 /* AddCityNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D2915E1F9D21D800BC6E55 /* AddCityNavigationController.swift */; };
 		D4FA8FD61F9C875E00A84B0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FA8FD51F9C875E00A84B0A /* AppDelegate.swift */; };
 		D4FA8FD81F9C875E00A84B0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FA8FD71F9C875E00A84B0A /* ViewController.swift */; };
-		D4FA8FDB1F9C875E00A84B0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4FA8FD91F9C875E00A84B0A /* Main.storyboard */; };
 		D4FA8FDD1F9C875E00A84B0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4FA8FDC1F9C875E00A84B0A /* Assets.xcassets */; };
 		D4FA8FE01F9C875E00A84B0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4FA8FDE1F9C875E00A84B0A /* LaunchScreen.storyboard */; };
+		D4FA8FEF1F9C88C100A84B0A /* ServiceLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FA8FEE1F9C88C100A84B0A /* ServiceLocator.swift */; };
+		D4FA8FF11F9C894200A84B0A /* GeoStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FA8FF01F9C894200A84B0A /* GeoStorageService.swift */; };
+		D4FA8FF31F9C8A8400A84B0A /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FA8FF21F9C8A8400A84B0A /* BaseRouter.swift */; };
+		D4FA8FF51F9C8AB000A84B0A /* ListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FA8FF41F9C8AB000A84B0A /* ListRouter.swift */; };
+		D4FA8FF71F9C8D7B00A84B0A /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FA8FF61F9C8D7B00A84B0A /* ListViewController.swift */; };
+		D4FA8FF91F9C8DAC00A84B0A /* ListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FA8FF81F9C8DAC00A84B0A /* ListDataSource.swift */; };
+		D4FA8FFB1F9C8EF000A84B0A /* ListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FA8FFA1F9C8EF000A84B0A /* ListInteractor.swift */; };
+		D4FA8FFD1F9C906000A84B0A /* BroadcastService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FA8FFC1F9C906000A84B0A /* BroadcastService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D4D291521F9D113F00BC6E55 /* RootRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
+		D4D291541F9D157300BC6E55 /* AddCityStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCityStory.swift; sourceTree = "<group>"; };
+		D4D291561F9D166F00BC6E55 /* AddCityInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCityInteractor.swift; sourceTree = "<group>"; };
+		D4D291581F9D194F00BC6E55 /* InputRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputRouter.swift; sourceTree = "<group>"; };
+		D4D2915A1F9D196200BC6E55 /* InputInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputInteractor.swift; sourceTree = "<group>"; };
+		D4D2915C1F9D196B00BC6E55 /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		D4D2915E1F9D21D800BC6E55 /* AddCityNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCityNavigationController.swift; sourceTree = "<group>"; };
 		D4FA8FD21F9C875E00A84B0A /* SilverArch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SilverArch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4FA8FD51F9C875E00A84B0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4FA8FD71F9C875E00A84B0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D4FA8FDA1F9C875E00A84B0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D4FA8FDC1F9C875E00A84B0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4FA8FDF1F9C875E00A84B0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4FA8FE11F9C875E00A84B0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4FA8FEE1F9C88C100A84B0A /* ServiceLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLocator.swift; sourceTree = "<group>"; };
+		D4FA8FF01F9C894200A84B0A /* GeoStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoStorageService.swift; sourceTree = "<group>"; };
+		D4FA8FF21F9C8A8400A84B0A /* BaseRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRouter.swift; sourceTree = "<group>"; };
+		D4FA8FF41F9C8AB000A84B0A /* ListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRouter.swift; sourceTree = "<group>"; };
+		D4FA8FF61F9C8D7B00A84B0A /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		D4FA8FF81F9C8DAC00A84B0A /* ListDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDataSource.swift; sourceTree = "<group>"; };
+		D4FA8FFA1F9C8EF000A84B0A /* ListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListInteractor.swift; sourceTree = "<group>"; };
+		D4FA8FFC1F9C906000A84B0A /* BroadcastService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroadcastService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +82,84 @@
 		D4FA8FD41F9C875E00A84B0A /* SilverArch */ = {
 			isa = PBXGroup;
 			children = (
+				D4FA8FED1F9C884900A84B0A /* Services */,
+				D4FA8FE71F9C87CB00A84B0A /* Modules */,
+				D4FA8FEB1F9C880500A84B0A /* Stories */,
 				D4FA8FD51F9C875E00A84B0A /* AppDelegate.swift */,
 				D4FA8FD71F9C875E00A84B0A /* ViewController.swift */,
-				D4FA8FD91F9C875E00A84B0A /* Main.storyboard */,
 				D4FA8FDC1F9C875E00A84B0A /* Assets.xcassets */,
 				D4FA8FDE1F9C875E00A84B0A /* LaunchScreen.storyboard */,
 				D4FA8FE11F9C875E00A84B0A /* Info.plist */,
 			);
 			path = SilverArch;
+			sourceTree = "<group>";
+		};
+		D4FA8FE71F9C87CB00A84B0A /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				D4FA8FF21F9C8A8400A84B0A /* BaseRouter.swift */,
+				D4FA8FE81F9C87D400A84B0A /* Root */,
+				D4FA8FE91F9C87DC00A84B0A /* List */,
+				D4FA8FEA1F9C87F400A84B0A /* Input */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		D4FA8FE81F9C87D400A84B0A /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				D4D291521F9D113F00BC6E55 /* RootRouter.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		D4FA8FE91F9C87DC00A84B0A /* List */ = {
+			isa = PBXGroup;
+			children = (
+				D4FA8FF41F9C8AB000A84B0A /* ListRouter.swift */,
+				D4FA8FFA1F9C8EF000A84B0A /* ListInteractor.swift */,
+				D4FA8FF61F9C8D7B00A84B0A /* ListViewController.swift */,
+				D4FA8FF81F9C8DAC00A84B0A /* ListDataSource.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		D4FA8FEA1F9C87F400A84B0A /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				D4D291581F9D194F00BC6E55 /* InputRouter.swift */,
+				D4D2915A1F9D196200BC6E55 /* InputInteractor.swift */,
+				D4D2915C1F9D196B00BC6E55 /* InputViewController.swift */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+		D4FA8FEB1F9C880500A84B0A /* Stories */ = {
+			isa = PBXGroup;
+			children = (
+				D4FA8FEC1F9C880F00A84B0A /* AddCity */,
+			);
+			path = Stories;
+			sourceTree = "<group>";
+		};
+		D4FA8FEC1F9C880F00A84B0A /* AddCity */ = {
+			isa = PBXGroup;
+			children = (
+				D4D291541F9D157300BC6E55 /* AddCityStory.swift */,
+				D4D291561F9D166F00BC6E55 /* AddCityInteractor.swift */,
+				D4D2915E1F9D21D800BC6E55 /* AddCityNavigationController.swift */,
+			);
+			path = AddCity;
+			sourceTree = "<group>";
+		};
+		D4FA8FED1F9C884900A84B0A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D4FA8FEE1F9C88C100A84B0A /* ServiceLocator.swift */,
+				D4FA8FFC1F9C906000A84B0A /* BroadcastService.swift */,
+				D4FA8FF01F9C894200A84B0A /* GeoStorageService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +223,6 @@
 			files = (
 				D4FA8FE01F9C875E00A84B0A /* LaunchScreen.storyboard in Resources */,
 				D4FA8FDD1F9C875E00A84B0A /* Assets.xcassets in Resources */,
-				D4FA8FDB1F9C875E00A84B0A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,22 +233,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4FA8FEF1F9C88C100A84B0A /* ServiceLocator.swift in Sources */,
+				D4D291571F9D166F00BC6E55 /* AddCityInteractor.swift in Sources */,
 				D4FA8FD81F9C875E00A84B0A /* ViewController.swift in Sources */,
+				D4D2915D1F9D196B00BC6E55 /* InputViewController.swift in Sources */,
+				D4FA8FF31F9C8A8400A84B0A /* BaseRouter.swift in Sources */,
+				D4FA8FFB1F9C8EF000A84B0A /* ListInteractor.swift in Sources */,
 				D4FA8FD61F9C875E00A84B0A /* AppDelegate.swift in Sources */,
+				D4FA8FF51F9C8AB000A84B0A /* ListRouter.swift in Sources */,
+				D4FA8FF11F9C894200A84B0A /* GeoStorageService.swift in Sources */,
+				D4D2915F1F9D21D800BC6E55 /* AddCityNavigationController.swift in Sources */,
+				D4D2915B1F9D196200BC6E55 /* InputInteractor.swift in Sources */,
+				D4FA8FFD1F9C906000A84B0A /* BroadcastService.swift in Sources */,
+				D4D291591F9D194F00BC6E55 /* InputRouter.swift in Sources */,
+				D4D291551F9D157300BC6E55 /* AddCityStory.swift in Sources */,
+				D4D291531F9D113F00BC6E55 /* RootRouter.swift in Sources */,
+				D4FA8FF91F9C8DAC00A84B0A /* ListDataSource.swift in Sources */,
+				D4FA8FF71F9C8D7B00A84B0A /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D4FA8FD91F9C875E00A84B0A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D4FA8FDA1F9C875E00A84B0A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D4FA8FDE1F9C875E00A84B0A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
